@@ -1,12 +1,76 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>포산학교 커뮤니티</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <title>포산중 커뮤니티</title>
+  <style>
+    body {
+      font-family: "Pretendard", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+    }
+
+    header {
+      background-color: #3b82f6;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 1rem;
+      background-color: #ffffff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    nav a {
+      color: #3b82f6;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 2rem auto;
+      background-color: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      color: #aaa;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>포산중 커뮤니티</h1>
+  </header>
+
+  <nav>
+    <a href="#">밈 투표장</a>
+    <a href="#">익명 담소방</a>
+    <a href="#">선생님 특징표</a>
+    <a href="#">인기순위</a>
+    <a href="#">고민상담소</a>
+  </nav>
+
+  <div class="content">
+    <h2>환영합니다!</h2>
+    <p>여기는 포산중 친구들을 위한 커뮤니티 사이트입니다.</p>
+    <p>밈 투표, 담소 나누기, 고민상담 등 여러 기능을 이용해보세요!</p>
+  </div>
+
+  <footer>
+    &copy; 2025 Posan Middle School
+  </footer>
+</body>
 </html>

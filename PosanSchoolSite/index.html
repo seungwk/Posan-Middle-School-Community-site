@@ -40,6 +40,7 @@
       padding: 2rem;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      text-align: center;
     }
 
     footer {
@@ -47,6 +48,17 @@
       padding: 1rem;
       color: #aaa;
       font-size: 14px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      background-color: #3b82f6;
+      color: white;
+      border-radius: 6px;
+      margin-top: 20px;
     }
   </style>
 </head>
@@ -67,10 +79,19 @@
     <h2>환영합니다!</h2>
     <p>여기는 포산중 친구들을 위한 커뮤니티 사이트입니다.</p>
     <p>밈 투표, 담소 나누기, 고민상담 등 여러 기능을 이용해보세요!</p>
+
+    <!-- 여기 버튼 추가 -->
+    <button onclick="showMessage()">테스트 버튼</button>
   </div>
 
   <footer>
     &copy; 2025 Posan Middle School
   </footer>
+
+  <!-- 자바스크립트 코드 -->
+  <script>
+    function showMessage() {
+      alert('버튼이 잘 작동합니다!');
+    }
+  </script>
 </body>
-</html>
